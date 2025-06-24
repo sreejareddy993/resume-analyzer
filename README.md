@@ -43,3 +43,10 @@ git clone https://github.com/sreejareddy993/resume-analyzer.git
 cd resume-analyzer
 pip install -r requirements.txt
 streamlit run app.py
+
+---
+📂 Requirements
+Python 3.8+
+OpenAI API Key (Get one here)
+
+---
