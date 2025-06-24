@@ -39,7 +39,7 @@ A smart Streamlit app that analyzes your resume using OpenAI's GPT-3.5 and compa
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/resume-analyzer.git
+git clone https://github.com/sreejareddy993/resume-analyzer.git
 cd resume-analyzer
 pip install -r requirements.txt
 streamlit run app.py
