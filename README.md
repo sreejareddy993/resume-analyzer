@@ -11,8 +11,8 @@ A smart Streamlit app that analyzes your resume using OpenAI's GPT-3.5 and compa
 
 ## 🚀 Live Demo
 
-👉 [Try the App](https://your-deployed-app-link.streamlit.app)  
-_(Replace with your actual Streamlit app URL)_
+👉 [Try the App](https://resume-analyzer-flt9eeghvmopydjubuyn9y.streamlit.app/)  
+
 
 ---
 
