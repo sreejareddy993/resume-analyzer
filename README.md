@@ -1,52 +1,44 @@
-# resume-analyzer
-# 🧠 AI-Powered Resume Analyzer
+# 🧠 Resume Analyzer
 
-A smart Streamlit app that analyzes your resume using OpenAI's GPT-3.5 and compares it with a job description. It gives you:
+An intelligent resume analyzer built with Streamlit that compares your resume with any job description and provides:
 
 ✅ Matching skills  
 ❌ Missing skills  
+📊 Skill match percentage  
 💡 Suggestions to improve your resume
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Live App
 
-👉 [Try the App](https://resume-analyzer-2knaj7wwrj7x5evmiyruum.streamlit.app/)  
-
+👉 [Try the App](https://resume-analyzer-2knaj7wwrj7x5evmiyruum.streamlit.app/)
 
 ---
 
 ## 📌 Features
 
-- 📄 Upload any resume PDF
-- 📝 Paste any job description
-- 🧠 GPT-powered analysis
-- 📊 Clear, actionable feedback
-- 📥 Download feedback as `.txt`
-- 🔑 Enter your own OpenAI API key (secure & safe)
+- 📄 Upload resume (PDF)
+- 📝 Paste job description
+- 📊 Match score based on skill overlap
+- ✅ View matched and missing skills
+- 💡 Resume improvement suggestions
+- 🧠 100% offline (no API key required)
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 - [Python](https://www.python.org/)
 - [Streamlit](https://streamlit.io/)
-- [OpenAI GPT-3.5](https://platform.openai.com/)
-- [pdfplumber](https://github.com/jsvine/pdfplumber)
+- [PyMuPDF (fitz)](https://github.com/pymupdf/PyMuPDF)
+- [Regex](https://docs.python.org/3/library/re.html)
 
 ---
 
-## 📦 Installation
+## 📦 Installation (For Local Use)
 
 ```bash
 git clone https://github.com/sreejareddy993/resume-analyzer.git
 cd resume-analyzer
 pip install -r requirements.txt
 streamlit run app.py
-
----
-📂 Requirements
-Python 3.8+
-OpenAI API Key (Get one here)
-
----
