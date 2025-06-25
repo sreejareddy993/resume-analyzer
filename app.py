@@ -1,10 +1,6 @@
 import streamlit as st
 import fitz  # PyMuPDF
-import spacy
 import re
-
-# Load NLP model
-nlp = spacy.load("en_core_web_sm")
 
 # Known technical skills (extendable)
 KNOWN_SKILLS = [
